@@ -1,0 +1,66 @@
+[
+    {
+        "id": 0,
+        "social": "facebook",
+        "title": "Page Views",
+        "amount": "87",
+        "changeAmount": "3%",
+        "changeDirection": "up"
+    },
+    {
+        "id": 1,
+        "social": "facebook",
+        "title": "Likes",
+        "amount": "52",
+        "changeAmount": "2%",
+        "changeDirection": "down"
+    },
+    {
+        "id": 2,
+        "social": "instagram",
+        "title": "Likes",
+        "amount": "5462",
+        "changeAmount": "2257%",
+        "changeDirection": "up"
+    },
+    {
+        "id": 3,
+        "social": "instagram",
+        "title": "Profile Views",
+        "amount": "52k",
+        "changeAmount": "1375%",
+        "changeDirection": "up"
+    },
+    {
+        "id": 4,
+        "social": "twitter",
+        "title": "Retweets",
+        "amount": "117",
+        "changeAmount": "303%",
+        "changeDirection": "up"
+    },
+    {
+        "id": 5,
+        "social": "twitter",
+        "title": "Likes",
+        "amount": "507",
+        "changeAmount": "553%",
+        "changeDirection": "up"
+    },
+    {
+        "id": 6,
+        "social": "youtube",
+        "title": "Likes",
+        "amount": "107",
+        "changeAmount": "19%",
+        "changeDirection": "down"
+    },
+    {
+        "id": 7,
+        "social": "youtube",
+        "title": "Total Views",
+        "amount": "1407",
+        "changeAmount": "12%",
+        "changeDirection": "down"
+    }
+]

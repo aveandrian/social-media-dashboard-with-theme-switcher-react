@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "social": "facebook",
+        "socialTag": "@nathanf",
+        "amount": "1987",
+        "changeAmount": 12,
+        "changeDirection": "up"
+    },
+    {
+        "id": 1,
+        "social": "twitter",
+        "socialTag": "@nathanf",
+        "amount": "1044",
+        "changeAmount": 99,
+        "changeDirection": "up"
+    },
+    {
+        "id": 2,
+        "social": "instagram",
+        "socialTag": "@realnathanf",
+        "amount": "11k",
+        "changeAmount": 1099,
+        "changeDirection": "up"
+    },
+    {
+        "id": 3,
+        "social": "youtube",
+        "socialTag": "Nathan F.",
+        "amount": "8239",
+        "changeAmount": 144,
+        "changeDirection": "down"
+    }
+]

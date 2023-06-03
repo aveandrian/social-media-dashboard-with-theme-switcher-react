@@ -1,0 +1,96 @@
+.general-card {
+    background-color: hsl(227, 47%, 96%);
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.313rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.general-card:hover {
+    cursor: pointer;
+    background-color: rgb(225, 227, 240);
+}
+
+.general-card.dark:hover {
+    cursor: pointer;
+    background-color: rgb(51, 58, 86);
+}
+  
+.general-card::before {
+    content: "";
+    position: absolute;
+    top: -0.313rem;
+    left: 0;
+    width: 100%;
+    height: 0.625rem;
+    background-color: black;
+}
+
+.facebook-card::before {
+    background-color: hsl(208, 92%, 53%);
+}
+
+.twitter-card::before {
+    background-color: hsl(203, 89%, 53%);
+}
+
+.instagram-card::before {
+    background-image: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+
+.youtube-card::before {
+    background-color: hsl(348, 97%, 39%);
+}
+
+.general-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+}
+
+.general-card-tag {
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+}
+
+.general-card-followers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-card-followers-amount {
+    font-size: 3.125rem;
+    color: hsl(230, 17%, 14%);
+}
+
+.general-card-followers-text {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: hsl(228, 12%, 44%);
+}
+
+.general-card-change {
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+}
+
+.general-card-change-icon {
+    height: 50%;
+}
+
+.general-card.dark {
+    background-color: hsl(228, 28%, 20%);
+}
+
+.general-card.dark .general-card-followers-amount{
+    color: white;
+}

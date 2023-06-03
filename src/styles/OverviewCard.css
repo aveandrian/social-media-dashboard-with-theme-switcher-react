@@ -1,0 +1,55 @@
+.overview-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(227, 47%, 96%);
+    font-weight: 700;
+    padding: 1.25rem;
+    border-radius: 0.313rem;
+    height: 125px;
+}
+
+.overview-card:hover {
+    cursor: pointer;
+    background-color: rgb(225, 227, 240);
+}
+
+.overview-card.dark:hover {
+    cursor: pointer;
+    background-color: rgb(51, 58, 86);
+}
+ 
+.overview-card-header, .overview-card-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-card-header-title {
+    color: hsl(228, 12%, 44%);
+}
+.overview-card-stats {
+    align-items: baseline;
+}
+
+.overview-card-stats-amount {
+    font-size: 2rem;
+}
+
+.overview-card-stats-change {
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+}
+
+.overview-card-stats-change-icon {
+    height: 100%;
+}
+
+.overview-card.dark {
+    background-color: hsl(228, 28%, 20%);
+}
+
+.overview-card.dark .overview-card-stats-amount {
+    color: white;
+}
