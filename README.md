@@ -20,4 +20,4 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/aveandrian/social-media-dashboard-with-theme-switcher-react/assets/13519212/7a120a9e-6d39-451c-87fe-b562288ceb78)
